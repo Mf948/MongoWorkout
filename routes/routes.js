@@ -1,6 +1,23 @@
 const path = require("path");
 module.exports = function(app) {
 console.log("yay")
+
+
+
+// app.post("/api/workouts", ({ body }, res) => {
+//     console.log("here")
+// //   Exercise.create(body)
+// //     .then(dbExercise => {
+// //       res.json(dbExercise);
+// //     })
+// //     .catch'(err => {
+// //       res.status(400).json(err);
+// //     });
+// });
+
+
+
+
  
 
 app.get("/exercise", (req, res)=>{
